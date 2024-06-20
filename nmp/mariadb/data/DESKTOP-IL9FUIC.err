@@ -1,0 +1,916 @@
+240329 21:21:12 InnoDB: The InnoDB memory heap is disabled
+240329 21:21:12 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240329 21:21:12 InnoDB: Compressed tables use zlib 1.2.3
+240329 21:21:12 InnoDB: Initializing buffer pool, size = 128.0M
+240329 21:21:12 InnoDB: Completed initialization of buffer pool
+240329 21:21:12 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 5241654
+240329 21:21:12  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 5244724
+240329 21:21:12  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 15251, file name .\mysql-bin.000001
+240329 21:21:13  InnoDB: Waiting for the background threads to start
+240329 21:21:14 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5244724
+240329 21:21:14 [Note] Plugin 'FEEDBACK' is disabled.
+240329 21:21:14 [Note] Recovering after a crash using mysql-bin
+240329 21:21:14 [Note] Starting crash recovery...
+240329 21:21:14 [Note] Crash recovery finished.
+240329 21:21:14 [Note] Server socket created on IP: '::'.
+240329 21:40:33 InnoDB: The InnoDB memory heap is disabled
+240329 21:40:33 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240329 21:40:33 InnoDB: Compressed tables use zlib 1.2.3
+240329 21:40:33 InnoDB: Initializing buffer pool, size = 128.0M
+240329 21:40:33 InnoDB: Completed initialization of buffer pool
+240329 21:40:33 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240329 21:40:33  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 15251, file name .\mysql-bin.000001
+240329 21:40:33  InnoDB: Waiting for the background threads to start
+240329 21:40:34 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5244734
+240329 21:40:34 [Note] Plugin 'FEEDBACK' is disabled.
+240329 21:40:34 [Note] Recovering after a crash using mysql-bin
+240329 21:40:34 [Note] Starting crash recovery...
+240329 21:40:34 [Note] Crash recovery finished.
+240329 21:40:34 [Note] Server socket created on IP: '::'.
+240329 23:10:46 InnoDB: The InnoDB memory heap is disabled
+240329 23:10:46 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240329 23:10:46 InnoDB: Compressed tables use zlib 1.2.3
+240329 23:10:46 InnoDB: Initializing buffer pool, size = 128.0M
+240329 23:10:46 InnoDB: Completed initialization of buffer pool
+240329 23:10:46 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240329 23:10:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 15251, file name .\mysql-bin.000001
+240329 23:10:46  InnoDB: Waiting for the background threads to start
+240329 23:10:47 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5260053
+240329 23:10:47 [Note] Plugin 'FEEDBACK' is disabled.
+240329 23:10:47 [Note] Recovering after a crash using mysql-bin
+240329 23:10:47 [Note] Starting crash recovery...
+240329 23:10:47 [Note] Crash recovery finished.
+240329 23:10:47 [Note] Server socket created on IP: '::'.
+240330  8:20:43 InnoDB: The InnoDB memory heap is disabled
+240330  8:20:43 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330  8:20:43 InnoDB: Compressed tables use zlib 1.2.3
+240330  8:20:43 InnoDB: Initializing buffer pool, size = 128.0M
+240330  8:20:43 InnoDB: Completed initialization of buffer pool
+240330  8:20:44 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330  8:20:44  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 16764, file name .\mysql-bin.000004
+240330  8:20:44  InnoDB: Waiting for the background threads to start
+240330  8:20:45 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5287890
+240330  8:20:45 [Note] Plugin 'FEEDBACK' is disabled.
+240330  8:20:45 [Note] Recovering after a crash using mysql-bin
+240330  8:20:45 [Note] Starting crash recovery...
+240330  8:20:45 [Note] Crash recovery finished.
+240330  8:20:45 [Note] Server socket created on IP: '::'.
+240330 10:18:02 InnoDB: The InnoDB memory heap is disabled
+240330 10:18:02 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 10:18:02 InnoDB: Compressed tables use zlib 1.2.3
+240330 10:18:02 InnoDB: Initializing buffer pool, size = 128.0M
+240330 10:18:02 InnoDB: Completed initialization of buffer pool
+240330 10:18:02 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 10:18:02  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 15878, file name .\mysql-bin.000005
+240330 10:18:02  InnoDB: Waiting for the background threads to start
+240330 10:18:03 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5316290
+240330 10:18:03 [Note] Plugin 'FEEDBACK' is disabled.
+240330 10:18:03 [Note] Recovering after a crash using mysql-bin
+240330 10:18:03 [Note] Starting crash recovery...
+240330 10:18:03 [Note] Crash recovery finished.
+240330 10:18:03 [Note] Server socket created on IP: '::'.
+240330 10:21:13 InnoDB: The InnoDB memory heap is disabled
+240330 10:21:13 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 10:21:13 InnoDB: Compressed tables use zlib 1.2.3
+240330 10:21:13 InnoDB: Initializing buffer pool, size = 128.0M
+240330 10:21:13 InnoDB: Completed initialization of buffer pool
+240330 10:21:13 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 10:21:13  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 7517, file name .\mysql-bin.000006
+240330 10:21:14  InnoDB: Waiting for the background threads to start
+240330 10:21:15 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5330224
+240330 10:21:15 [Note] Plugin 'FEEDBACK' is disabled.
+240330 10:21:15 [Note] Recovering after a crash using mysql-bin
+240330 10:21:15 [Note] Starting crash recovery...
+240330 10:21:15 [Note] Crash recovery finished.
+240330 10:21:15 [Note] Server socket created on IP: '::'.
+240330 10:24:26 InnoDB: The InnoDB memory heap is disabled
+240330 10:24:26 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 10:24:26 InnoDB: Compressed tables use zlib 1.2.3
+240330 10:24:26 InnoDB: Initializing buffer pool, size = 128.0M
+240330 10:24:26 InnoDB: Completed initialization of buffer pool
+240330 10:24:26 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 10:24:26  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 7517, file name .\mysql-bin.000007
+240330 10:24:26  InnoDB: Waiting for the background threads to start
+240330 10:24:27 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5341147
+240330 10:24:27 [Note] Plugin 'FEEDBACK' is disabled.
+240330 10:24:27 [Note] Recovering after a crash using mysql-bin
+240330 10:24:27 [Note] Starting crash recovery...
+240330 10:24:27 [Note] Crash recovery finished.
+240330 10:24:27 [Note] Server socket created on IP: '::'.
+240330 10:27:59 InnoDB: The InnoDB memory heap is disabled
+240330 10:27:59 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 10:27:59 InnoDB: Compressed tables use zlib 1.2.3
+240330 10:27:59 InnoDB: Initializing buffer pool, size = 128.0M
+240330 10:27:59 InnoDB: Completed initialization of buffer pool
+240330 10:27:59 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 10:27:59  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 7517, file name .\mysql-bin.000007
+240330 10:27:59  InnoDB: Waiting for the background threads to start
+240330 10:28:00 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5341157
+240330 10:28:00 [Note] Plugin 'FEEDBACK' is disabled.
+240330 10:28:00 [Note] Recovering after a crash using mysql-bin
+240330 10:28:00 [Note] Starting crash recovery...
+240330 10:28:00 [Note] Crash recovery finished.
+240330 10:28:00 [Note] Server socket created on IP: '::'.
+240330 10:39:57 InnoDB: The InnoDB memory heap is disabled
+240330 10:39:57 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 10:39:57 InnoDB: Compressed tables use zlib 1.2.3
+240330 10:39:57 InnoDB: Initializing buffer pool, size = 128.0M
+240330 10:39:57 InnoDB: Completed initialization of buffer pool
+240330 10:39:57 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 10:39:57  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 14428, file name .\mysql-bin.000009
+240330 10:39:58  InnoDB: Waiting for the background threads to start
+240330 10:39:59 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5370093
+240330 10:39:59 [Note] Plugin 'FEEDBACK' is disabled.
+240330 10:39:59 [Note] Recovering after a crash using mysql-bin
+240330 10:39:59 [Note] Starting crash recovery...
+240330 10:39:59 [Note] Crash recovery finished.
+240330 10:39:59 [Note] Server socket created on IP: '::'.
+240330 10:49:34 InnoDB: The InnoDB memory heap is disabled
+240330 10:49:34 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 10:49:34 InnoDB: Compressed tables use zlib 1.2.3
+240330 10:49:34 InnoDB: Initializing buffer pool, size = 128.0M
+240330 10:49:34 InnoDB: Completed initialization of buffer pool
+240330 10:49:34 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 5241654
+240330 10:49:34  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 5244724
+240330 10:49:34  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 15251, file name .\mysql-bin.000001
+240330 10:49:35  InnoDB: Waiting for the background threads to start
+240330 10:49:36 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5244724
+240330 10:49:36 [Note] Plugin 'FEEDBACK' is disabled.
+240330 10:49:36 [Note] Recovering after a crash using mysql-bin
+240330 10:49:36 [Note] Starting crash recovery...
+240330 10:49:36 [Note] Crash recovery finished.
+240330 10:49:36 [Note] Server socket created on IP: '::'.
+240330 11:03:39 InnoDB: The InnoDB memory heap is disabled
+240330 11:03:39 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 11:03:39 InnoDB: Compressed tables use zlib 1.2.3
+240330 11:03:39 InnoDB: Initializing buffer pool, size = 128.0M
+240330 11:03:39 InnoDB: Completed initialization of buffer pool
+240330 11:03:39 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 11:03:39  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 18888, file name .\mysql-bin.000011
+240330 11:03:40  InnoDB: Waiting for the background threads to start
+240330 11:03:41 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5279345
+240330 11:03:41 [Note] Plugin 'FEEDBACK' is disabled.
+240330 11:03:41 [Note] Recovering after a crash using mysql-bin
+240330 11:03:41 [Note] Starting crash recovery...
+240330 11:03:41 [Note] Crash recovery finished.
+240330 11:03:41 [Note] Server socket created on IP: '::'.
+240330 11:07:37 InnoDB: The InnoDB memory heap is disabled
+240330 11:07:37 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 11:07:37 InnoDB: Compressed tables use zlib 1.2.3
+240330 11:07:37 InnoDB: Initializing buffer pool, size = 128.0M
+240330 11:07:37 InnoDB: Completed initialization of buffer pool
+240330 11:07:37 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 11:07:37  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 10674, file name .\mysql-bin.000012
+240330 11:07:38  InnoDB: Waiting for the background threads to start
+240330 11:07:39 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5293518
+240330 11:07:39 [Note] Plugin 'FEEDBACK' is disabled.
+240330 11:07:39 [Note] Recovering after a crash using mysql-bin
+240330 11:07:39 [Note] Starting crash recovery...
+240330 11:07:39 [Note] Crash recovery finished.
+240330 11:07:39 [Note] Server socket created on IP: '::'.
+240330 12:20:14 InnoDB: The InnoDB memory heap is disabled
+240330 12:20:14 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 12:20:14 InnoDB: Compressed tables use zlib 1.2.3
+240330 12:20:14 InnoDB: Initializing buffer pool, size = 128.0M
+240330 12:20:14 InnoDB: Completed initialization of buffer pool
+240330 12:20:14 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 12:20:14  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 52038, file name .\mysql-bin.000013
+240330 12:20:14  InnoDB: Waiting for the background threads to start
+240330 12:20:15 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5391950
+240330 12:20:15 [Note] Plugin 'FEEDBACK' is disabled.
+240330 12:20:15 [Note] Recovering after a crash using mysql-bin
+240330 12:20:15 [Note] Starting crash recovery...
+240330 12:20:15 [Note] Crash recovery finished.
+240330 12:20:15 [Note] Server socket created on IP: '::'.
+240330 13:44:39 InnoDB: The InnoDB memory heap is disabled
+240330 13:44:39 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 13:44:39 InnoDB: Compressed tables use zlib 1.2.3
+240330 13:44:39 InnoDB: Initializing buffer pool, size = 128.0M
+240330 13:44:39 InnoDB: Completed initialization of buffer pool
+240330 13:44:39 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 13:44:39  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 89346, file name .\mysql-bin.000014
+240330 13:44:40  InnoDB: Waiting for the background threads to start
+240330 13:44:41 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5577588
+240330 13:44:41 [Note] Plugin 'FEEDBACK' is disabled.
+240330 13:44:41 [Note] Recovering after a crash using mysql-bin
+240330 13:44:41 [Note] Starting crash recovery...
+240330 13:44:41 [Note] Crash recovery finished.
+240330 13:44:41 [Note] Server socket created on IP: '::'.
+240330 13:50:30 InnoDB: The InnoDB memory heap is disabled
+240330 13:50:30 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 13:50:30 InnoDB: Compressed tables use zlib 1.2.3
+240330 13:50:30 InnoDB: Initializing buffer pool, size = 128.0M
+240330 13:50:30 InnoDB: Completed initialization of buffer pool
+240330 13:50:30 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 13:50:30  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 12088, file name .\mysql-bin.000015
+240330 13:50:31  InnoDB: Waiting for the background threads to start
+240330 13:50:32 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5603805
+240330 13:50:32 [Note] Plugin 'FEEDBACK' is disabled.
+240330 13:50:32 [Note] Recovering after a crash using mysql-bin
+240330 13:50:32 [Note] Starting crash recovery...
+240330 13:50:32 [Note] Crash recovery finished.
+240330 13:50:32 [Note] Server socket created on IP: '::'.
+240330 15:38:32 InnoDB: The InnoDB memory heap is disabled
+240330 15:38:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 15:38:32 InnoDB: Compressed tables use zlib 1.2.3
+240330 15:38:32 InnoDB: Initializing buffer pool, size = 128.0M
+240330 15:38:32 InnoDB: Completed initialization of buffer pool
+240330 15:38:32 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 15:38:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 19462, file name .\mysql-bin.000016
+240330 15:38:32  InnoDB: Waiting for the background threads to start
+240330 15:38:33 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5647626
+240330 15:38:33 [Note] Plugin 'FEEDBACK' is disabled.
+240330 15:38:33 [Note] Recovering after a crash using mysql-bin
+240330 15:38:33 [Note] Starting crash recovery...
+240330 15:38:33 [Note] Crash recovery finished.
+240330 15:38:33 [Note] Server socket created on IP: '::'.
+240330 15:56:39 InnoDB: The InnoDB memory heap is disabled
+240330 15:56:39 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 15:56:39 InnoDB: Compressed tables use zlib 1.2.3
+240330 15:56:39 InnoDB: Initializing buffer pool, size = 128.0M
+240330 15:56:39 InnoDB: Completed initialization of buffer pool
+240330 15:56:39 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 15:56:39  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 10798, file name .\mysql-bin.000017
+240330 15:56:40  InnoDB: Waiting for the background threads to start
+240330 15:56:41 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5670240
+240330 15:56:41 [Note] Plugin 'FEEDBACK' is disabled.
+240330 15:56:41 [Note] Recovering after a crash using mysql-bin
+240330 15:56:41 [Note] Starting crash recovery...
+240330 15:56:41 [Note] Crash recovery finished.
+240330 15:56:41 [Note] Server socket created on IP: '::'.
+240330 16:00:28 InnoDB: The InnoDB memory heap is disabled
+240330 16:00:28 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240330 16:00:28 InnoDB: Compressed tables use zlib 1.2.3
+240330 16:00:28 InnoDB: Initializing buffer pool, size = 128.0M
+240330 16:00:28 InnoDB: Completed initialization of buffer pool
+240330 16:00:28 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240330 16:00:28  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 10798, file name .\mysql-bin.000018
+240330 16:00:29  InnoDB: Waiting for the background threads to start
+240330 16:00:30 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 5692773
+240330 16:00:30 [Note] Plugin 'FEEDBACK' is disabled.
+240330 16:00:30 [Note] Recovering after a crash using mysql-bin
+240330 16:00:30 [Note] Starting crash recovery...
+240330 16:00:30 [Note] Crash recovery finished.
+240330 16:00:30 [Note] Server socket created on IP: '::'.
+240331 12:59:19 InnoDB: The InnoDB memory heap is disabled
+240331 12:59:19 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240331 12:59:19 InnoDB: Compressed tables use zlib 1.2.3
+240331 12:59:19 InnoDB: Initializing buffer pool, size = 128.0M
+240331 12:59:19 InnoDB: Completed initialization of buffer pool
+240331 12:59:19 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240331 12:59:19  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 362054, file name .\mysql-bin.000019
+240331 12:59:19  InnoDB: Waiting for the background threads to start
+240331 12:59:20 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 6532461
+240331 12:59:20 [Note] Plugin 'FEEDBACK' is disabled.
+240331 12:59:20 [Note] Recovering after a crash using mysql-bin
+240331 12:59:20 [Note] Starting crash recovery...
+240331 12:59:20 [Note] Crash recovery finished.
+240331 12:59:21 [Note] Server socket created on IP: '::'.
+240331 13:09:32 InnoDB: The InnoDB memory heap is disabled
+240331 13:09:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240331 13:09:32 InnoDB: Compressed tables use zlib 1.2.3
+240331 13:09:32 InnoDB: Initializing buffer pool, size = 128.0M
+240331 13:09:32 InnoDB: Completed initialization of buffer pool
+240331 13:09:32 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240331 13:09:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 15479, file name .\mysql-bin.000020
+240331 13:09:32  InnoDB: Waiting for the background threads to start
+240331 13:09:33 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 6568853
+240331 13:09:33 [Note] Plugin 'FEEDBACK' is disabled.
+240331 13:09:33 [Note] Recovering after a crash using mysql-bin
+240331 13:09:33 [Note] Starting crash recovery...
+240331 13:09:33 [Note] Crash recovery finished.
+240331 13:09:33 [Note] Server socket created on IP: '::'.
+240331 13:13:23 InnoDB: The InnoDB memory heap is disabled
+240331 13:13:23 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240331 13:13:23 InnoDB: Compressed tables use zlib 1.2.3
+240331 13:13:23 InnoDB: Initializing buffer pool, size = 128.0M
+240331 13:13:23 InnoDB: Completed initialization of buffer pool
+240331 13:13:23 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240331 13:13:23  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 15443, file name .\mysql-bin.000021
+240331 13:13:23  InnoDB: Waiting for the background threads to start
+240331 13:13:24 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 6606291
+240331 13:13:24 [Note] Plugin 'FEEDBACK' is disabled.
+240331 13:13:24 [Note] Recovering after a crash using mysql-bin
+240331 13:13:24 [Note] Starting crash recovery...
+240331 13:13:24 [Note] Crash recovery finished.
+240331 13:13:24 [Note] Server socket created on IP: '::'.
+240331 13:15:50 InnoDB: The InnoDB memory heap is disabled
+240331 13:15:50 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240331 13:15:50 InnoDB: Compressed tables use zlib 1.2.3
+240331 13:15:50 InnoDB: Initializing buffer pool, size = 128.0M
+240331 13:15:50 InnoDB: Completed initialization of buffer pool
+240331 13:15:50 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240331 13:15:50  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 15411, file name .\mysql-bin.000022
+240331 13:15:50  InnoDB: Waiting for the background threads to start
+240331 13:15:51 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 6640767
+240331 13:15:51 [Note] Plugin 'FEEDBACK' is disabled.
+240331 13:15:51 [Note] Recovering after a crash using mysql-bin
+240331 13:15:51 [Note] Starting crash recovery...
+240331 13:15:51 [Note] Crash recovery finished.
+240331 13:15:51 [Note] Server socket created on IP: '::'.
+240401  9:12:40 InnoDB: The InnoDB memory heap is disabled
+240401  9:12:40 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240401  9:12:40 InnoDB: Compressed tables use zlib 1.2.3
+240401  9:12:40 InnoDB: Initializing buffer pool, size = 128.0M
+240401  9:12:40 InnoDB: Completed initialization of buffer pool
+240401  9:12:40 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 8231916
+240401  9:12:40  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 8232258
+240401  9:12:40  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 673055, file name .\mysql-bin.000023
+240401  9:12:41  InnoDB: Waiting for the background threads to start
+240401  9:12:42 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 8232258
+240401  9:12:42 [Note] Plugin 'FEEDBACK' is disabled.
+240401  9:12:42 [Note] Recovering after a crash using mysql-bin
+240401  9:12:42 [Note] Starting crash recovery...
+240401  9:12:42 [Note] Crash recovery finished.
+240401  9:12:42 [Note] Server socket created on IP: '::'.
+240401 17:23:37 InnoDB: The InnoDB memory heap is disabled
+240401 17:23:37 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240401 17:23:37 InnoDB: Compressed tables use zlib 1.2.3
+240401 17:23:37 InnoDB: Initializing buffer pool, size = 128.0M
+240401 17:23:37 InnoDB: Completed initialization of buffer pool
+240401 17:23:37 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240401 17:23:37  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 44579, file name .\mysql-bin.000024
+240401 17:23:37  InnoDB: Waiting for the background threads to start
+240401 17:23:38 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 8339703
+240401 17:23:38 [Note] Plugin 'FEEDBACK' is disabled.
+240401 17:23:38 [Note] Recovering after a crash using mysql-bin
+240401 17:23:38 [Note] Starting crash recovery...
+240401 17:23:38 [Note] Crash recovery finished.
+240401 17:23:38 [Note] Server socket created on IP: '::'.
+240402 16:58:15 InnoDB: The InnoDB memory heap is disabled
+240402 16:58:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240402 16:58:15 InnoDB: Compressed tables use zlib 1.2.3
+240402 16:58:15 InnoDB: Initializing buffer pool, size = 128.0M
+240402 16:58:15 InnoDB: Completed initialization of buffer pool
+240402 16:58:15 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 8675733
+240402 16:58:15  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 8676108
+240402 16:58:15  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 150614, file name .\mysql-bin.000025
+240402 16:58:16  InnoDB: Waiting for the background threads to start
+240402 16:58:17 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 8676108
+240402 16:58:17 [Note] Plugin 'FEEDBACK' is disabled.
+240402 16:58:17 [Note] Recovering after a crash using mysql-bin
+240402 16:58:17 [Note] Starting crash recovery...
+240402 16:58:17 [Note] Crash recovery finished.
+240402 16:58:17 [Note] Server socket created on IP: '::'.
+240404 21:49:43 InnoDB: The InnoDB memory heap is disabled
+240404 21:49:43 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240404 21:49:43 InnoDB: Compressed tables use zlib 1.2.3
+240404 21:49:43 InnoDB: Initializing buffer pool, size = 128.0M
+240404 21:49:43 InnoDB: Completed initialization of buffer pool
+240404 21:49:43 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240404 21:49:43  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 469269, file name .\mysql-bin.000026
+240404 21:49:45  InnoDB: Waiting for the background threads to start
+240404 21:49:46 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 9620797
+240404 21:49:46 [Note] Plugin 'FEEDBACK' is disabled.
+240404 21:49:46 [Note] Recovering after a crash using mysql-bin
+240404 21:49:46 [Note] Starting crash recovery...
+240404 21:49:46 [Note] Crash recovery finished.
+240404 21:49:46 [Note] Server socket created on IP: '::'.
+240405 12:07:32 InnoDB: The InnoDB memory heap is disabled
+240405 12:07:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240405 12:07:32 InnoDB: Compressed tables use zlib 1.2.3
+240405 12:07:32 InnoDB: Initializing buffer pool, size = 128.0M
+240405 12:07:32 InnoDB: Completed initialization of buffer pool
+240405 12:07:32 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240405 12:07:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 234669, file name .\mysql-bin.000027
+240405 12:07:33  InnoDB: Waiting for the background threads to start
+240405 12:07:34 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 9869603
+240405 12:07:34 [Note] Plugin 'FEEDBACK' is disabled.
+240405 12:07:34 [Note] Recovering after a crash using mysql-bin
+240405 12:07:34 [Note] Starting crash recovery...
+240405 12:07:34 [Note] Crash recovery finished.
+240405 12:07:34 [Note] Server socket created on IP: '::'.
+240618 10:26:58 InnoDB: The InnoDB memory heap is disabled
+240618 10:26:58 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240618 10:26:58 InnoDB: Compressed tables use zlib 1.2.3
+240618 10:26:58 InnoDB: Initializing buffer pool, size = 128.0M
+240618 10:26:58 InnoDB: Completed initialization of buffer pool
+240618 10:26:58 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240618 10:26:58  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 1893378, file name .\mysql-bin.000028
+240618 10:26:58  InnoDB: Waiting for the background threads to start
+240618 10:26:59 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 11737119
+240618 10:26:59 [Note] Plugin 'FEEDBACK' is disabled.
+240618 10:26:59 [Note] Recovering after a crash using mysql-bin
+240618 10:26:59 [Note] Starting crash recovery...
+240618 10:26:59 [Note] Crash recovery finished.
+240618 10:27:00 [Note] Server socket created on IP: '::'.
+240619 13:59:32 InnoDB: The InnoDB memory heap is disabled
+240619 13:59:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 13:59:32 InnoDB: Compressed tables use zlib 1.2.3
+240619 13:59:32 InnoDB: Initializing buffer pool, size = 128.0M
+240619 13:59:32 InnoDB: Completed initialization of buffer pool
+240619 13:59:32 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 11809069
+240619 13:59:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 11809309
+240619 13:59:32  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 94469, file name .\mysql-bin.000029
+240619 13:59:33  InnoDB: Waiting for the background threads to start
+240619 13:59:34 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 11809309
+240619 13:59:34 [Note] Plugin 'FEEDBACK' is disabled.
+240619 13:59:34 [Note] Recovering after a crash using mysql-bin
+240619 13:59:34 [Note] Starting crash recovery...
+240619 13:59:34 [Note] Crash recovery finished.
+240619 13:59:34 [Note] Server socket created on IP: '::'.
+240619 15:01:46 InnoDB: The InnoDB memory heap is disabled
+240619 15:01:46 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 15:01:46 InnoDB: Compressed tables use zlib 1.2.3
+240619 15:01:46 InnoDB: Initializing buffer pool, size = 128.0M
+240619 15:01:46 InnoDB: Completed initialization of buffer pool
+240619 15:01:46 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 15:01:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 94469, file name .\mysql-bin.000029
+240619 15:01:46  InnoDB: Waiting for the background threads to start
+240619 15:01:47 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 11809319
+240619 15:01:47 [Note] Plugin 'FEEDBACK' is disabled.
+240619 15:01:47 [Note] Recovering after a crash using mysql-bin
+240619 15:01:47 [Note] Starting crash recovery...
+240619 15:01:47 [Note] Crash recovery finished.
+240619 15:01:47 [Note] Server socket created on IP: '::'.
+240619 16:04:55 InnoDB: The InnoDB memory heap is disabled
+240619 16:04:55 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 16:04:55 InnoDB: Compressed tables use zlib 1.2.3
+240619 16:04:55 InnoDB: Initializing buffer pool, size = 128.0M
+240619 16:04:55 InnoDB: Completed initialization of buffer pool
+240619 16:04:55 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 16:04:55  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 88174, file name .\mysql-bin.000031
+240619 16:04:55  InnoDB: Waiting for the background threads to start
+240619 16:04:56 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 11976666
+240619 16:04:56 [Note] Plugin 'FEEDBACK' is disabled.
+240619 16:04:56 [Note] Recovering after a crash using mysql-bin
+240619 16:04:56 [Note] Starting crash recovery...
+240619 16:04:56 [Note] Crash recovery finished.
+240619 16:04:56 [Note] Server socket created on IP: '::'.
+240619 16:12:02 InnoDB: The InnoDB memory heap is disabled
+240619 16:12:02 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 16:12:02 InnoDB: Compressed tables use zlib 1.2.3
+240619 16:12:02 InnoDB: Initializing buffer pool, size = 128.0M
+240619 16:12:02 InnoDB: Completed initialization of buffer pool
+240619 16:12:02 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 11990354
+240619 16:12:02  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 11990466
+240619 16:12:02  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 8836, file name .\mysql-bin.000032
+240619 16:12:03  InnoDB: Waiting for the background threads to start
+240619 16:12:04 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 11990466
+240619 16:12:04 [Note] Plugin 'FEEDBACK' is disabled.
+240619 16:12:04 [Note] Recovering after a crash using mysql-bin
+240619 16:12:04 [Note] Starting crash recovery...
+240619 16:12:04 [Note] Crash recovery finished.
+240619 16:12:04 [Note] Server socket created on IP: '::'.
+240619 16:18:35 InnoDB: The InnoDB memory heap is disabled
+240619 16:18:35 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 16:18:35 InnoDB: Compressed tables use zlib 1.2.3
+240619 16:18:35 InnoDB: Initializing buffer pool, size = 128.0M
+240619 16:18:35 InnoDB: Completed initialization of buffer pool
+240619 16:18:35 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 16:18:35  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 8836, file name .\mysql-bin.000033
+240619 16:18:36  InnoDB: Waiting for the background threads to start
+240619 16:18:37 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12004842
+240619 16:18:37 [Note] Plugin 'FEEDBACK' is disabled.
+240619 16:18:37 [Note] Recovering after a crash using mysql-bin
+240619 16:18:37 [Note] Starting crash recovery...
+240619 16:18:37 [Note] Crash recovery finished.
+240619 16:18:37 [Note] Server socket created on IP: '::'.
+240619 17:30:16 InnoDB: The InnoDB memory heap is disabled
+240619 17:30:16 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 17:30:16 InnoDB: Compressed tables use zlib 1.2.3
+240619 17:30:16 InnoDB: Initializing buffer pool, size = 128.0M
+240619 17:30:16 InnoDB: Completed initialization of buffer pool
+240619 17:30:16 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 12086735
+240619 17:30:16  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 12086975
+240619 17:30:16  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 46313, file name .\mysql-bin.000034
+240619 17:30:17  InnoDB: Waiting for the background threads to start
+240619 17:30:18 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12086975
+240619 17:30:18 [Note] Plugin 'FEEDBACK' is disabled.
+240619 17:30:18 [Note] Recovering after a crash using mysql-bin
+240619 17:30:18 [Note] Starting crash recovery...
+240619 17:30:18 [Note] Crash recovery finished.
+240619 17:30:18 [Note] Server socket created on IP: '::'.
+240619 20:31:07 InnoDB: The InnoDB memory heap is disabled
+240619 20:31:07 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 20:31:07 InnoDB: Compressed tables use zlib 1.2.3
+240619 20:31:07 InnoDB: Initializing buffer pool, size = 128.0M
+240619 20:31:07 InnoDB: Completed initialization of buffer pool
+240619 20:31:07 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 20:31:07  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+240619 20:31:51 InnoDB: The InnoDB memory heap is disabled
+240619 20:31:51 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 20:31:51 InnoDB: Compressed tables use zlib 1.2.3
+240619 20:31:51 InnoDB: Initializing buffer pool, size = 128.0M
+240619 20:31:51 InnoDB: Completed initialization of buffer pool
+240619 20:31:51 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 20:31:51  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 188178, file name .\mysql-bin.000035
+240619 20:31:51  InnoDB: Waiting for the background threads to start
+240619 20:31:52 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12429913
+240619 20:31:52 [Note] Plugin 'FEEDBACK' is disabled.
+240619 20:31:52 [Note] Recovering after a crash using mysql-bin
+240619 20:31:52 [Note] Starting crash recovery...
+240619 20:31:52 [Note] Crash recovery finished.
+240619 20:31:52 [Note] Server socket created on IP: '::'.
+240619 20:58:56 InnoDB: The InnoDB memory heap is disabled
+240619 20:58:56 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 20:58:56 InnoDB: Compressed tables use zlib 1.2.3
+240619 20:58:56 InnoDB: Initializing buffer pool, size = 128.0M
+240619 20:58:56 InnoDB: Completed initialization of buffer pool
+240619 20:58:56 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 20:58:56  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 75147, file name .\mysql-bin.000036
+240619 20:58:57  InnoDB: Waiting for the background threads to start
+240619 20:58:58 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12560772
+240619 20:58:58 [Note] Plugin 'FEEDBACK' is disabled.
+240619 20:58:58 [Note] Recovering after a crash using mysql-bin
+240619 20:58:58 [Note] Starting crash recovery...
+240619 20:58:58 [Note] Crash recovery finished.
+240619 20:58:58 [Note] Server socket created on IP: '::'.
+240619 21:07:44 InnoDB: The InnoDB memory heap is disabled
+240619 21:07:44 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 21:07:44 InnoDB: Compressed tables use zlib 1.2.3
+240619 21:07:44 InnoDB: Initializing buffer pool, size = 128.0M
+240619 21:07:44 InnoDB: Completed initialization of buffer pool
+240619 21:07:44 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 21:07:44  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 9965, file name .\mysql-bin.000037
+240619 21:07:44  InnoDB: Waiting for the background threads to start
+240619 21:07:45 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12579254
+240619 21:07:45 [Note] Plugin 'FEEDBACK' is disabled.
+240619 21:07:45 [Note] Recovering after a crash using mysql-bin
+240619 21:07:45 [Note] Starting crash recovery...
+240619 21:07:45 [Note] Crash recovery finished.
+240619 21:07:45 [Note] Server socket created on IP: '::'.
+240619 21:13:37 InnoDB: The InnoDB memory heap is disabled
+240619 21:13:37 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 21:13:37 InnoDB: Compressed tables use zlib 1.2.3
+240619 21:13:37 InnoDB: Initializing buffer pool, size = 128.0M
+240619 21:13:37 InnoDB: Completed initialization of buffer pool
+240619 21:13:37 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 21:13:37  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 9966, file name .\mysql-bin.000038
+240619 21:13:38  InnoDB: Waiting for the background threads to start
+240619 21:13:39 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12596930
+240619 21:13:39 [Note] Plugin 'FEEDBACK' is disabled.
+240619 21:13:39 [Note] Recovering after a crash using mysql-bin
+240619 21:13:39 [Note] Starting crash recovery...
+240619 21:13:39 [Note] Crash recovery finished.
+240619 21:13:39 [Note] Server socket created on IP: '::'.
+240619 21:18:37 InnoDB: The InnoDB memory heap is disabled
+240619 21:18:37 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 21:18:37 InnoDB: Compressed tables use zlib 1.2.3
+240619 21:18:37 InnoDB: Initializing buffer pool, size = 128.0M
+240619 21:18:37 InnoDB: Completed initialization of buffer pool
+240619 21:18:37 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 21:18:37  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 9965, file name .\mysql-bin.000039
+240619 21:18:38  InnoDB: Waiting for the background threads to start
+240619 21:18:39 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12614537
+240619 21:18:39 [Note] Plugin 'FEEDBACK' is disabled.
+240619 21:18:39 [Note] Recovering after a crash using mysql-bin
+240619 21:18:39 [Note] Starting crash recovery...
+240619 21:18:39 [Note] Crash recovery finished.
+240619 21:18:39 [Note] Server socket created on IP: '::'.
+240619 21:21:24 InnoDB: The InnoDB memory heap is disabled
+240619 21:21:24 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 21:21:24 InnoDB: Compressed tables use zlib 1.2.3
+240619 21:21:24 InnoDB: Initializing buffer pool, size = 128.0M
+240619 21:21:24 InnoDB: Completed initialization of buffer pool
+240619 21:21:24 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 21:21:25  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 9966, file name .\mysql-bin.000040
+240619 21:21:25  InnoDB: Waiting for the background threads to start
+240619 21:21:26 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12633148
+240619 21:21:26 [Note] Plugin 'FEEDBACK' is disabled.
+240619 21:21:26 [Note] Recovering after a crash using mysql-bin
+240619 21:21:26 [Note] Starting crash recovery...
+240619 21:21:26 [Note] Crash recovery finished.
+240619 21:21:26 [Note] Server socket created on IP: '::'.
+240619 22:13:39 InnoDB: The InnoDB memory heap is disabled
+240619 22:13:39 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 22:13:39 InnoDB: Compressed tables use zlib 1.2.3
+240619 22:13:39 InnoDB: Initializing buffer pool, size = 128.0M
+240619 22:13:39 InnoDB: Completed initialization of buffer pool
+240619 22:13:39 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 22:13:39  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 134876, file name .\mysql-bin.000041
+240619 22:13:39  InnoDB: Waiting for the background threads to start
+240619 22:13:40 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12873972
+240619 22:13:40 [Note] Plugin 'FEEDBACK' is disabled.
+240619 22:13:40 [Note] Recovering after a crash using mysql-bin
+240619 22:13:40 [Note] Starting crash recovery...
+240619 22:13:40 [Note] Crash recovery finished.
+240619 22:13:40 [Note] Server socket created on IP: '::'.
+240619 23:18:27 InnoDB: The InnoDB memory heap is disabled
+240619 23:18:27 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240619 23:18:27 InnoDB: Compressed tables use zlib 1.2.3
+240619 23:18:27 InnoDB: Initializing buffer pool, size = 128.0M
+240619 23:18:27 InnoDB: Completed initialization of buffer pool
+240619 23:18:27 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+240619 23:18:27  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 72420, file name .\mysql-bin.000042
+240619 23:18:28  InnoDB: Waiting for the background threads to start
+240619 23:18:29 Percona XtraDB (http://www.percona.com) 5.5.36-MariaDB-33.0 started; log sequence number 12998902
+240619 23:18:29 [Note] Plugin 'FEEDBACK' is disabled.
+240619 23:18:29 [Note] Recovering after a crash using mysql-bin
+240619 23:18:29 [Note] Starting crash recovery...
+240619 23:18:29 [Note] Crash recovery finished.
+240619 23:18:29 [Note] Server socket created on IP: '::'.

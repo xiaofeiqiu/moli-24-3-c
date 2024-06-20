@@ -1,0 +1,235 @@
+240330 12:20:15 [ERROR] Missing system table mysql.proxies_priv; please run mysql_upgrade to create it
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240330 12:20:15 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240330 12:20:15 [Note] Event Scheduler: Loaded 0 events
+240330 12:20:15 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240330 12:20:20 [ERROR] mysqld.exe: Table '.\cgmsv\lua_migration' is marked as crashed and should be repaired
+240330 12:20:20 [Warning] Checking table:   '.\cgmsv\lua_migration'
+240330 12:24:27 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. REPLACE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave. Statement: REPLACE tbl_character_bak SELECT * FROM tbl_character WHERE CdKey='gongjianshou' and RegistNumber=15
+240330 12:24:27 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. REPLACE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave. Statement: REPLACE tbl_item_bak SELECT * FROM tbl_item WHERE CdKey='gongjianshou' and RegistNumber=15
+240330 12:24:27 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. REPLACE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave. Statement: REPLACE tbl_pet_bak SELECT * FROM tbl_pet WHERE CdKey='gongjianshou' and RegistNumber=15
+240330 12:24:27 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. REPLACE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave. Statement: REPLACE tbl_skill_bak SELECT * FROM tbl_skill WHERE CdKey='gongjianshou' and RegistNumber=15
+240330 12:24:27 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. REPLACE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave. Statement: REPLACE tbl_addressbook_bak SELECT * FROM tbl_addressbook WHERE CdKey='gongjianshou' and RegistNumber=15
+240330 12:24:51 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240330 13:06:38 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240331 12:59:21 [ERROR] Missing system table mysql.proxies_priv; please run mysql_upgrade to create it
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240331 12:59:21 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240331 12:59:21 [Note] Event Scheduler: Loaded 0 events
+240331 12:59:21 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240331 13:01:33 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240401  9:12:42 [ERROR] Missing system table mysql.proxies_priv; please run mysql_upgrade to create it
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240401  9:12:43 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240401  9:12:43 [Note] Event Scheduler: Loaded 0 events
+240401  9:12:43 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240401  9:13:13 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240401 16:57:28 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240618 10:27:00 [ERROR] Missing system table mysql.proxies_priv; please run mysql_upgrade to create it
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240618 10:27:00 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240618 10:27:00 [Note] Event Scheduler: Loaded 0 events
+240618 10:27:00 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240618 10:27:19 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240618 10:27:19 [ERROR] mysqld.exe: Table '.\cgmsv\hook_charaext' is marked as crashed and should be repaired
+240618 10:27:20 [Warning] Checking table:   '.\cgmsv\hook_charaext'
+240618 10:27:20 [ERROR] Cannot find or open table cgmsv/lua_itemdata from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240618 10:27:20 [ERROR] Cannot find or open table cgmsv/lua_petdata from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240618 10:28:46 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240619 16:04:56 [ERROR] Missing system table mysql.proxies_priv; please run mysql_upgrade to create it
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240619 16:04:56 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240619 16:04:56 [Note] Event Scheduler: Loaded 0 events
+240619 16:04:56 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240619 16:05:25 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240619 23:18:29 [ERROR] Missing system table mysql.proxies_priv; please run mysql_upgrade to create it
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240619 23:18:29 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240619 23:18:29 [Note] Event Scheduler: Loaded 0 events
+240619 23:18:29 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution

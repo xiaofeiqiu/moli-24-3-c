@@ -1,0 +1,60 @@
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240330 15:38:33 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240330 15:38:33 [Note] Event Scheduler: Loaded 0 events
+240330 15:38:33 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240330 15:38:47 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+240402 16:58:17 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+240402 16:58:17 [Note] Event Scheduler: Loaded 0 events
+240402 16:58:17 [Note] mariadb\bin\mysqld.exe: ready for connections.
+Version: '5.5.36-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+240402 16:59:22 [ERROR] Cannot find or open table cgmsv/des_heroes from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
