@@ -273,3 +273,9 @@ tech里所关联的技能编号是1999.那么skill里是1999
 [nr metamo {形象ID}] 改变形象id 
 /module reload {module_name}
 /daka 开启打卡
+[nr setallskilllv 2] set all skill to level 2
+
+[nr setskillslot xxx]
+这个命令是扩展你技能栏栏位的，正常为10个技能栏位，你可以用这个命令增加栏位 最多15个！命令数值为11-15，因为11是增加1个，15是增加5个，比如你想增加3个栏位就是[nr setskillslot 13] ！
+
+

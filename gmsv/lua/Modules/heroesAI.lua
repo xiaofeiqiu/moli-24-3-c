@@ -1476,27 +1476,35 @@ function module:showAIComment(charIndex, data)
 
 	local title = "★AI行动说明\\n\\n"
 
-	local windowStr = title .. _(commands):chain():map(function(command)
-			local conditionId = command[1]
-			local targetId = command[2]
+  local windowStr = title .. _(commands):chain():map(function(command)
+    local conditionId = command[1]
+    local targetId = command[2]
 
-			local techId = tonumber(command[3])
-			local techName = ""
-			if techId == -100 or techId == -200 then
-				techName = techId == -100 and "攻击" or "防御"
-			else
-				local techIndex = Tech.GetTechIndex(techId)
-				techName = Tech.GetData(techIndex, CONST.TECH_NAME)
-        print("techId", techId)
-        print("techName", techName)
-			end
+    local techId = tonumber(command[3]) or 0  -- Set techId to 0 if it is nil
+    local techName = ""
+    
+    if techId == -100 or techId == -200 or techId == nil then
+        techName = techId == -100 and "攻击" or "防御"
+    else
+        local success, result = pcall(function()
+            print("techId", techId)
+            local techIndex = Tech.GetTechIndex(techId)
+            techName = Tech.GetData(techIndex, CONST.TECH_NAME)
+            print("techName", techName)
+        end)
+        
+        if not success then
+            print("Error occurred while processing techId: " .. result)
+        end
+    end
 
-
-			str = "「" .. self.conditions[tostring(conditionId)]["comment"]
-				.. "」对 「" .. self.target[tostring(targetId)]["comment"] .. "」使用 「" .. techName .. "」"
-			return str;
-		end):join("\\n\\n"):value()
-		.. "\\n\\n★判断优先级为从上往下，点击确定可以选择此AI。\n\n" .. warning
+    local conditionComment = self.conditions[tostring(conditionId)] and self.conditions[tostring(conditionId)]["comment"] or "未知条件"
+    local targetComment = self.target[tostring(targetId)] and self.target[tostring(targetId)]["comment"] or "未知目标"
+    
+    local str = "「" .. conditionComment .. "」对 「" .. targetComment .. "」使用 「" .. techName .. "」"
+    return str
+end):join("\\n\\n"):value()
+.. "\\n\\n★判断优先级为从上往下，点击确定可以选择此AI。\n\n" .. warning
 	local buttonType = (isLevelQualified and isJobQualified) and CONST.BUTTON_确定关闭 or CONST.BUTTON_关闭
 	NLG.ShowWindowTalked(charIndex, self.AINpc, CONST.窗口_巨信息框, buttonType, 3, windowStr);
 end
